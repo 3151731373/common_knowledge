@@ -13,11 +13,19 @@
 # 设计模式<br/>
 
 # C++<br/>
-[虚函数]()<br/>
-[多态]()<br/>
+
+#### 类继承<br/>
+[基类 派生类 继承]()<br/>
+[多态 虚函数 重写 静/动态绑定]()<br/>
+[public protected private]()<br/>
 [内存泄漏]()<br/>
+
+#### 标准模版库<br/>
 [map 红黑树]()<br/>
 [vector]()<br/>
+
+#### 关键字<br/>
+[const](https://github.com/3151731373/common_knowledge/blob/master/c%2B%2B/const)<br/>
 
 # python<br/>
 
