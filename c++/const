@@ -17,3 +17,5 @@ const 修饰指针
 常量指针内容：const int * a = & (int const *a = &)
 常量指针本身：int * const a = &
 同时：const int * const a = &
+
+参考：https://www.cnblogs.com/lanjianhappy/p/7298427.html
