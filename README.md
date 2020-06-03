@@ -22,22 +22,29 @@
 
 #### 标准模版库<br/>
 [map 红黑树]()<br/>
-[vector]()<br/>
+[vector 扩容]()<br/>
 
 #### 关键字<br/>
 [const](https://github.com/3151731373/common_knowledge/blob/master/c%2B%2B/const)<br/>
 
 # python<br/>
+[装饰器]()<br/>
+[list底层]()<br/>
+[dict底层]()<br/>
 
 # Web<br/>
+[用过消息队列？]()<br/>
 #### django<br/>
 
 # 操作系统<br/>
 [进程 状态转换]()<br/>
+[进程 线程 区别]()<br/>
 [文件索引]()<br/>
+[OS中的堆栈]()<br/>
 
 # 分布式系统<br/>
 
 # 计算机网络<br/>
 [TCP IP UDP]()<br/>
+[TCP三次握手]()<br/>
 [网关]()<br/>
