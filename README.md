@@ -15,9 +15,10 @@
 # C++<br/>
 
 #### 类继承<br/>
-[基类 派生类 继承]()<br/>
+[构造函数 析构函数 ]()<br/>
+[基类 派生类 继承 public protected private]()<br/>
 [多态 虚函数 重写 静/动态绑定]()<br/>
-[public protected private]()<br/>
+
 [内存泄漏]()<br/>
 
 #### 标准模版库<br/>
