@@ -8,7 +8,7 @@
 [B-tree]()<br/>
 [hash 索引](https://github.com/3151731373/common_knowledge/blob/master/database/hash%20%E7%B4%A2%E5%BC%95)<br/>
 
-# Linux<br/>
+# Linux/shell<br/>
 
 # 设计模式<br/>
 
@@ -34,7 +34,7 @@
 [dict底层]()<br/>
 
 # Web<br/>
-[用过消息队列？]()<br/>
+[消息队列]()<br/>
 #### django<br/>
 
 # 操作系统<br/>
@@ -42,6 +42,8 @@
 [进程 线程 区别]()<br/>
 [文件索引]()<br/>
 [OS中的堆栈]()<br/>
+#### 虚拟存储器<br/>
+[页面置换算法 Optimal FIFO LRU Clock](https://github.com/3151731373/common_knowledge/blob/master/operating%20system/%E9%A1%B5%E9%9D%A2%E7%BD%AE%E6%8D%A2%E7%AE%97%E6%B3%95%20Optimal%20FIFO%20LRU%20Clock)
 
 # 分布式系统<br/>
 
@@ -49,3 +51,8 @@
 [TCP IP UDP]()<br/>
 [TCP三次握手]()<br/>
 [网关]()<br/>
+
+#### 应用层<br>
+[WWW URL URI]()<br>
+[HTTP]()<br>
+HTTP
