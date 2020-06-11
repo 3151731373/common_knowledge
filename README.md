@@ -5,10 +5,10 @@
 [多版本并发控制 MVCC](https://github.com/3151731373/common_knowledge/blob/master/database/%E5%A4%9A%E7%89%88%E6%9C%AC%E5%B9%B6%E5%8F%91%E6%8E%A7%E5%88%B6%EF%BC%88MVCC%EF%BC%89)<br/>
 #### 索引<br/>
 [定义 类型 优点](https://github.com/3151731373/common_knowledge/blob/master/database/%E5%AE%9A%E4%B9%89%20%E7%B1%BB%E5%9E%8B%20%E4%BC%98%E7%82%B9)<br/>
-[B-tree]()<br/>
+索引类型: 
+[B-tree B+树 索引](https://github.com/3151731373/common_knowledge/blob/master/database/B-Tree%20B%2Btree)
 [hash 索引](https://github.com/3151731373/common_knowledge/blob/master/database/hash%20%E7%B4%A2%E5%BC%95)<br/>
-
-# Linux/shell<br/>
+索引策略: [聚簇索引]()<br/>
 
 # 设计模式<br/>
 
@@ -48,11 +48,13 @@
 # 分布式系统<br/>
 
 # 计算机网络<br/>
-[TCP IP UDP]()<br/>
+#### 运输层<br/>
+[TCP UDP]()<br/>
 [TCP三次握手]()<br/>
 [网关]()<br/>
 
 #### 应用层<br>
 [WWW URL URI]()<br>
 [HTTP]()<br>
-HTTP
+
+# Linux/shell<br/>
