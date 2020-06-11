@@ -1,4 +1,5 @@
 # 数据库<br/>
+sql基本概念：[数据库，DBMS,表，行，数据类型，列，主键，sql](https://github.com/3151731373/common_knowledge/blob/master/database/sql%20%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5)<br/>
 #### 事务<br/>
 [事务+ACID](https://github.com/3151731373/common_knowledge/blob/master/database/%E4%BA%8B%E7%89%A9%2BACID)<br/>
 [隔离级别](https://github.com/3151731373/common_knowledge/blob/master/database/%E9%9A%94%E7%A6%BB%E7%BA%A7%E5%88%AB)<br/>
