@@ -36,6 +36,9 @@ sql基本概念：[数据库，DBMS，表，行，数据类型，列，主键，
 
 # Web<br/>
 [消息队列]()<br/>
+[socket 通信]<br/>
+[nignx]<br/>
+[]
 #### django<br/>
 
 # 操作系统<br/>
