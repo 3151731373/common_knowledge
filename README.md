@@ -16,9 +16,9 @@ sql基本概念：[数据库，DBMS，表，行，数据类型，列，主键，
 # C++<br/>
 
 #### 类继承<br/>
-[构造函数 析构函数 ]()<br/>
-[基类 派生类 继承 public protected private]()<br/>
-[多态 虚函数 重写 静/动态绑定]()<br/>
+[构造函数 析构函数 new delete](https://github.com/3151731373/common_knowledge/blob/master/c%2B%2B/%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0%20%E6%9E%90%E6%9E%84%E5%87%BD%E6%95%B0%20new%20delete)<br/>
+[基类 派生类 继承](https://github.com/3151731373/common_knowledge/blob/master/c++/%E5%9F%BA%E7%B1%BB%20%E6%B4%BE%E7%94%9F%E7%B1%BB%20%E7%BB%A7%E6%89%BF)<br/>
+[多态 虚函数 重写 静/动态绑定](https://github.com/3151731373/common_knowledge/blob/master/c%2B%2B/%E5%A4%9A%E6%80%81%20%E8%99%9A%E5%87%BD%E6%95%B0%20%E9%87%8D%E5%86%99%20%E9%9D%99%E5%8A%A8%E6%80%81%E7%BB%91%E5%AE%9A)<br/>
 
 [内存泄漏]()<br/>
 
