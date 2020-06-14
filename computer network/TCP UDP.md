@@ -1,9 +1,9 @@
 ### TCP三次握手，四次挥手
-第一次握手：client将SYN置为1，随机产生一个初始序列号seq发送给Server,进入SYN_SENT状态
+第一次握手：client将SYN置为1，随机产生一个初始序列号seq发送给Server,进入SYN_SENT状态</br>
 第二次握手：Server收到Client的SYN=1之后，知道客户端请求建立连接，将自己的SYN置1，ACK置1，产生一个acknowledge number=sequence number+1
-并随机产生一个自己的初始序列号，发送给客户端，进入SYN_RCVD状态；
+并随机产生一个自己的初始序列号，发送给客户端，进入SYN_RCVD状态；</br>
 第三次握手：客户端检查acknodledge number是否为序列号+1，ACK是否为1检查正确之后将自己的ACK置1，产生一个acknowledge number = 服务器的序列号+1
-发送给服务器，进入ESTABLISHED状态，服务器检查ACK为1和acknowledge number为序列号+1后，也进入ESTABLISHED状态；完成三次握手，连接建立
+发送给服务器，进入ESTABLISHED状态，服务器检查ACK为1和acknowledge number为序列号+1后，也进入ESTABLISHED状态；完成三次握手，连接建立</br>
 
 
 ### TCP与UDP的区别
