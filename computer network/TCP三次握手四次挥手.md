@@ -1,19 +1,11 @@
-### TCP三次握手，四次挥手
+### TCP三次握手
 <details>
-<summary>第一次握手</summary>
-client将SYN置为1，随机产生一个初始序列号seq发送给Server,进入SYN_SENT状态
-</details>
-
-<details>
-<summary>第二次握手</summary>
+<summary>三次握手</summary>
+  client将SYN置为1，随机产生一个初始序列号seq发送给Server,进入SYN_SENT状态</br>
   Server收到Client的SYN=1之后，知道客户端请求建立连接，将自己的SYN置1，ACK置1，产生一个acknowledge number=sequence number+1
-并随机产生一个自己的初始序列号，发送给客户端，进入SYN_RCVD状态；
-</details>
-
-<details>
-<summary>第三次握手</summary>
+并随机产生一个自己的初始序列号，发送给客户端，进入SYN_RCVD状态；</br>
   客户端检查acknodledge number是否为序列号+1，ACK是否为1检查正确之后将自己的ACK置1，产生一个acknowledge number = 服务器的序列号+1
-发送给服务器，进入ESTABLISHED状态，服务器检查ACK为1和acknowledge number为序列号+1后，也进入ESTABLISHED状态；完成三次握手，连接建立
+发送给服务器，进入ESTABLISHED状态，服务器检查ACK为1和acknowledge number为序列号+1后，也进入ESTABLISHED状态；完成三次握手，连接建立</br>
 </details>
 
 <details>
@@ -47,36 +39,13 @@ client将SYN置为1，随机产生一个初始序列号seq发送给Server,进入
   TCP连接的一方随机选择一个32位的序列号作为发送数据的初始序列号（ISN），以便接收方可以确认是否为合法编号。
 </details>
 
-### TCP与UDP的区别
-
-1. TCP是面向连接的，UDP是无连接的；
+### TCP四次挥手</br>
 <details>
-<summary>什么叫无连接</summary>
-
-UDP发送数据之前不需要建立连接
+<summary>四次挥手</summary>
+  Client将FIN置为1，发送一个序列号seq给Server,进入FIN_WAIT_1状态</br>
+  Server收到FIN之后，发送一个ACK=1，acknowledge number=收到的序列号+1给服务器，进入CLOSED_WAIT状态，此时客户端已经没有要发送的数据了，但是仍然可以接收服务器发来的数据</br>
+  Server将FIN置1，发送一个序列号给Client进入LAST_ACK状态</br>
+  Client收到服务器的FIN后，进入TIME_WAIT状态，接着将ACK置一，发送一个acknowledge number=序列号+1给服务器；服务器收到后确认acknowledge number后变为CLOSED状态，不再向客户端发送数据。客户端等待2** MSL（保文段最长寿命）时间后，也进入CLOSED状态。完成四次挥手。</br>
+  MSL(Maximum Segment Lifetime),指一个片段在网络中最大的存活时间，2MSL就是一个发送和一个回复所需的最大时间。如果直到2MSL，Client都没有再次收到FIN，那么Client推断ACK已经被成功接收
 </details>
 
-2.TCP是可靠的，UDP是不可靠的
-<details>
-  <summary>什么是不可靠</summary>
-  UDP接收到报文后，不需要给出任何确认
-</details>
-
-3.TCP只支持点对点通信，UDP支持一对一，一对多，多对一，多对多
-
-4.TCP是面向字节流的，UDP是面向报文的
-<details>
-  <summary>什么意思</summary>
-  面向字节流是指发送数据时以字节为单位，一个数据包可以拆分成若干组进行发送，而UDP一个报文只能一次发完。
-</details>
-
-5.TCP有拥塞控制机制，UDP没有。网络出现的拥塞不会使源主机的发送速率降低，这对某些实时应用是很重要的，比如媒体通信，游戏
-
-6.TCP首部开销20字节，UDP首部开销8字节
-
-7.UDP的主机不需要维持复杂的连接状态表
-
-
-<details>
-<summary></summary>
-</details>
