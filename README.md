@@ -52,9 +52,10 @@ sql基本概念：[数据库，DBMS，表，行，数据类型，列，主键，
 # 分布式系统<br/>
 
 # 计算机网络<br/>
-#### 运输层<br/>
-[TCP UDP]()<br/>
-[TCP三次握手]()<br/>
+运输层：
+[TCP UDP 区别](https://github.com/3151731373/common_knowledge/blob/master/computer%20network/TCP%20UDP%E5%8C%BA%E5%88%AB.md)
+[TCP三次握手四次挥手](https://github.com/3151731373/common_knowledge/blob/master/computer%20network/TCP%E4%B8%89%E6%AC%A1%E6%8F%A1%E6%89%8B%E5%9B%9B%E6%AC%A1%E6%8C%A5%E6%89%8B.md)
+[TCP如何实现流量控制](https://github.com/3151731373/common_knowledge/blob/master/computer%20network/TCP%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E6%B5%81%E9%87%8F%E6%8E%A7%E5%88%B6.md)
 [网关]()<br/>
 
 #### 应用层<br>
