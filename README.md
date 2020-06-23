@@ -54,6 +54,7 @@ sql基本概念：[数据库，DBMS，表，行，数据类型，列，主键，
 
 # 计算机网络<br/>
 [OSI网络体系结构与TCP/IP协议模型]()</br>
+应用层：[HTTP和HTTPS的区别](https://github.com/3151731373/common_knowledge/blob/master/computer%20network/HTTP%E5%92%8CHTTPS%E7%9A%84%E5%8C%BA%E5%88%AB.md)</br>
 运输层：
 [TCP UDP 区别](https://github.com/3151731373/common_knowledge/blob/master/computer%20network/TCP%20UDP%E5%8C%BA%E5%88%AB.md)
 [TCP三次握手四次挥手](https://github.com/3151731373/common_knowledge/blob/master/computer%20network/TCP%E4%B8%89%E6%AC%A1%E6%8F%A1%E6%89%8B%E5%9B%9B%E6%AC%A1%E6%8C%A5%E6%89%8B.md)
